@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature covertor</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+  
+    <div class="contain">
+    <form id="tempCalc" onsubmit="calculateTemp(); return false  ">
+    <label class="new" for="temp">Enter the values for conversion</label>
+    <br> <input class="name" type="number" name="temp " id="temp">
+    <select class="new-2" name="temp_diff" id="temp_diff">
+        <option value="cel">&deg;Celcius</option>
+        <option value="fah">&deg;Fahrenheit</option>
+    </select> <br>
+
+    <input class="submit" type="submit" name="temp"><br>
+    <span id="result"></span>
+
+    </form>
+    </div>
+    
+    <script src="java.js"></script>
+</body>
+</html>

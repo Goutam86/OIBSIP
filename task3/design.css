@@ -1,0 +1,58 @@
+.contain{
+    width:100vw;
+    height: 100vh;
+    background-image:url(newbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    /* place-items: center; */
+    
+    
+    
+}
+form{
+    background-color: rgb(249, 239, 219);
+    border: 2px solid rgb(241, 180, 66);
+    width: 30em;
+    height: 13em;
+    margin-top: 15em;
+    margin-left: 14em;
+    
+}
+.new{
+    position: relative;
+    top: 50px;
+    left: 90px;
+    font-size: 20px;
+    
+}
+.name{
+    position: relative;
+    top: 70px;
+    left:80px ;
+}
+.new-2{
+    position: relative;
+    top: 70px;
+    left:80px ;
+}
+.submit{
+    position: relative;
+    top: 90px;
+    left:200px ;
+    background-color:black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+#result{
+    position: relative;
+    top: 100px;
+    left:200px ;
+    font-size: 15px;
+}
+.submit:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
