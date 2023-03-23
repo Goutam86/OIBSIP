@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-image: url(new3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container nav {
+    justify-content: center;
+    margin: 3px;
+    padding: 4px;
+    float: center;
+}
+
+.navbar li {
+    float: left;
+    margin: 20px;
+    margin-left: 30px;
+
+}
+
+li:hover {
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    cursor: pointer;
+}
+
+.navbar ul {
+    overflow: auto;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+
+}
+
+
+.btn {
+    float: right;
+    display: flex;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    margin-right: 45px;
+    padding: 20px;
+    position: relative;
+    bottom: 88px;
+    border-radius: 20px;
+    width: 5em;
+    justify-content: center;
+    transition: color 1s ease-out;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+button {
+    transition: color 3s ease-in-out;
+    color: rgb(10, 8, 8);
+}
+
+button:hover {
+    background-color: rgb(237, 16, 16);
+    cursor: pointer;
+}
+
+.logo {
+    display: inline;
+    position: absolute;
+    top: 15px;
+    font-size: 26px;
+    left: 17px;
+    margin: 1px;
+    padding: 2px;
+    width: 11em;
+
+}
+
+.logo img {
+    width: 50px;
+    margin-top: 3px;
+    display: inline;
+    margin-left: 10px;
+}
+
+.logo p {
+    color: rgb(251, 250, 250);
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    font-weight: bolder;
+    display: inline;
+    position: relative;
+    left: 5px;
+    bottom: 10px;
+}
+
+.define {
+    display: inline;
+    position: relative;
+    top: 10em;
+    left: 3em;
+}
+
+.define>p {
+    font-size: 3em;
+    color: yellow;
+    display: inline;
+
+}
+
+.far-2 {
+    font-size: 20px;
+    color: rgb(251, 250, 249);
+    width: 300px;
+}
+
+.far p {
+    font-size: 1px;
+}
+
+.explore {
+    margin: 20px;
+    padding: 10px;
+    width: 5em;
+    border-radius: 10px;
+    }
+
+.form {
+    background-color: rgba(163, 158, 158, 0.461);
+    border-radius: 10px;
+    float: right;
+    position: relative;
+    height: 21em;
+    right: 27em;
+    bottom: 3em;
+    width: 16em
+}
+
+.form p {
+    position: relative;
+    top: 10px;
+    margin: 12px;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    border-bottom: 2px solid yellow;
+}
+
+.form input {
+    border-radius: 5px;
+    margin-bottom: 7px;
+    padding: 2px;
+}
+
+.submit {
+    padding: 3px;
+    margin-left: 86px;
+    margin-top: 5px;
+    border: 3px solid black;
+    border-radius: 5px;
+    color: black;
+}
+
+.submit:hover {
+    background-color: rgba(103, 99, 99, 0.728);
+
+}
