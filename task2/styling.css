@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.nav button{
+    float: right;
+}
+.nav ul{
+    /* margin-left: 20em; */
+    position: relative;
+    left: 15em;
+
+}
+.ui{
+    padding: 10px;
+    position: relative;
+    bottom: 30px;
+    font-size: 20px;
+    border: 2px solid rgb(11, 7, 7);
+    border-radius: 10px;
+    margin: 30px;
+
+}
+
+.nav ul li{
+    float:left;
+    font-size: 20px;
+list-style: none;
+padding: 20px;
+}
+.nav p{
+    float: left;
+    position: relative;
+    right: 1em;
+    top: 10px;
+    font-size: 30px;
+    
+}
+.nav .button{
+    margin: 15px;
+    position: relative;
+    left: 4em;
+}
+.nav .button button{
+    padding: 10px;
+    margin-left: 40em;
+
+}
+.nav .dot{
+    font-size: 3em;
+    margin-left:20px;
+    position: relative;
+    top: -8px;
+}
+.dot{
+    color: red;
+}
+/* } */
+.container{
+    display: grid;
+    /* background-color: red; */
+    grid-template-columns: 50% 50%;
+}
+/* .image */
+    /* background-color: blue; */
+    /* width: fit-content; */
+/* } */
+.image img{
+    width: 50em;
+    height: 81em;
+}
+.content{
+    font-size: 100px;
+    margin-left: 40px;
+    margin-top: 83px;
+}
+.content .define{
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    width: 20em;
+}
+.hire {
+    padding: 25px;
+    margin: 30px;
+    font-size: 30px;
+    border: 2px solid black;
+}
+.project{
+    padding: 14px;
+    margin: 20px;
+    font-size: 25px;
+    border: 2px solid black;
+}
+.intro{
+    display: grid;
+    grid-template-columns: 10fr 16fr ;
+    grid-template-rows: 8fr 7fr;
+}
+.intro div{
+    font-size: 35px;
+    margin-top: 32px;
+    width: 9em;
+}
+.intro .part1{
+    font-size: 45px;
+    /* border: 2px solid black; */
+    width: fit-content;
+    height: fit-content;
+    /* border-radius: 50px; */
+}
+.part2{
+position: relative;
+
+/* right: 30px; */
+}
+.part2 img{
+    width: 300px;
+    height: auto;
+    position: relative;
+    bottom: 80px;
+    
+}
+.intro .part3{
+    font-size: 50px;
+}
+.part4{
+    position: relative;
+    right: 20px;
+    
+}
+.intro .part4{
+    font-size: 60px;
+}
+.part4 p{
+    font-size: 30px;
+    /* border: 2px solid black; */
+    width: fit-content;
+}
+.website{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.projects{
+    font-size: 30px;
+    padding: 60px;
+}
+.projects button{
+    padding: 10px;
+}
+
+.info{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13em;
+    /* border-bottom: 2px solid white; */
+}
+.letter{
+    float: right;
+    display: inline;
+    background-color: red;
+    height: max-content;
+    margin: 100px;
+    position: relative;
+    left: 15em;
+
+}
+.letter p{
+    padding: 10px;
+}
+li:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
